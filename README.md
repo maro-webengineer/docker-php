@@ -12,9 +12,9 @@
      mkdir -p src
     ```
 
-2. srcディレクトリ直下に`index.???`を作成する（アクセス時の最初に表示されるページ）
-???の部分を`html`にするか`php`にするかは任せる。
-ただし`php`にする場合は以下ファイルの設定を修正すること。
+2. srcディレクトリ直下に`index.???`を作成する（アクセス時の最初に表示されるページ）<br>
+    ???の部分を`html`にするか`php`にするかは任せる。<br>
+    ただし`php`にする場合は以下ファイルの設定を修正すること。
 
     ```plaintext
      infra/docker/nginx/default.conf
@@ -36,10 +36,10 @@
      }
     ```
 
-3. makeコマンドで事前に書かれた設定値を読み込ませてPHP環境を構築する
+1. makeコマンドで事前に書かれた設定値を読み込ませてPHP環境を構築する
     ```shell
      make create-project
     ```
 
-4. [http://localhost](http://localhost)にアクセスする
+2. [http://localhost](http://localhost)にアクセスする
 
